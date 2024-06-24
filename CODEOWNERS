@@ -1,18 +1,23 @@
-# Localization teams
-/locale/ar/ @nodejs/nodejs-ar
-/locale/ca/ # No Catalan team
-/locale/de/ @nodejs/nodejs-de
-/locale/es/ @nodejs/nodejs-es
-/locale/fa/ @nodejs/nodejs-fa
-/locale/fr/ @nodejs/nodejs-fr
-/locale/gl/ # No Galacian team
-/locale/it/ @nodejs/nodejs-it
-/locale/ja/ @nodejs/nodejs-ja
-/locale/ko/ @nodejs/nodejs-ko
-/locale/pt-br/ @nodejs/nodejs-pt
-/locale/ro/ @nodejs/nodejs-ro
-/locale/ru/ @nodejs/nodejs-ru
-/locale/tr/ @nodejs/nodejs-tr
-/locale/uk/ @nodejs/nodejs-uk
-/locale/zh-cn/ @nodejs/nodejs-cn
-/locale/zh-tw/ @nodejs/nodejs-tw
+# Website Development
+* @nodejs/nodejs-website
+
+# Infrastructure
+.github @nodejs/web-infra
+.husky @nodejs/web-infra
+
+# Framework
+next.config.mjs @nodejs/web-infra
+next.dynamic.mjs @nodejs/web-infra
+
+# Node.js Release Blog Posts
+/pages/en/blog/release @nodejs/releasers
+/pages/en/blog/announcements @nodejs/releasers
+
+# Package Ecosystem
+package.json @nodejs/nodejs-website
+turbo.json @nodejs/nodejs-website @nodejs/web-infra
+
+# Web Infrastructure
+crowdin.yml @nodejs/web-infra
+redirects.json @nodejs/web-infra
+site.json @nodejs/web-infra
